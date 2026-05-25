@@ -352,11 +352,10 @@ section{padding:120px 0;position:relative}
 .treatment-icon{width:48px;height:48px;border-radius:50%;background:var(--sol);position:relative;flex-shrink:0}
 .treatment-icon.agave{background:var(--agave)}
 .treatment-icon.split{background:linear-gradient(135deg,var(--sol) 50%,var(--agave) 50%)}
-.treatment-icon.ring{background:transparent;border:6px solid var(--sol)}
-.treatment-icon.half{background:var(--cream);border:1px solid var(--ink-12)}
-.treatment-icon.half::after{content:"";position:absolute;inset:0;background:var(--sol);clip-path:polygon(0 0,50% 0,50% 100%,0 100%)}
-.treatment-icon.dot{background:var(--cream);border:1px solid var(--ink-12)}
-.treatment-icon.dot::after{content:"";position:absolute;inset:14px;background:var(--agave);border-radius:50%}
+.treatment-icon.ring{background:linear-gradient(180deg,var(--sol) 50%,var(--agave) 50%)}
+.treatment-icon.half{background:linear-gradient(90deg,var(--agave) 50%,var(--sol) 50%)}
+.treatment-icon.dot{background:var(--agave)}
+.treatment-icon.dot::after{content:"";position:absolute;inset:14px;background:var(--sol);border-radius:50%}
 
 /* ---------- WHY ---------- */
 .why{background:var(--agave);color:var(--paper);padding:140px 0}
